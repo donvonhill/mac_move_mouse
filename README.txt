@@ -1,1 +1,1 @@
-Use python to move with mouse on macbook.
+Use python to move, click with mouse any platform.

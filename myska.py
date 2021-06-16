@@ -9,9 +9,9 @@ while (True):
     # datetime object containing current date and time
     now = datetime.now()
     print(now, "Pressing left button on mouse to stay awake")
-    beepy.beep(sound="ping")
-    #os.system('say "moving"') #say moving
-    #os.system('afplay /System/Library/Sounds/Morse.aiff') #play system sound Tink
+    
+    #choose one from 'coin','robot_error','error','ping','ready','success','wilhelm'
+    beepy.beep(sound="coin")
     
     # Move pointer relative to current position
     #mouse.moe(5, 0)
