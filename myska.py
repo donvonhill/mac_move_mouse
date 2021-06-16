@@ -1,10 +1,14 @@
 import time
+from datetime import datetime
 import os
 from pynput.mouse import Button, Controller
 
 mouse = Controller()
 
 while (True):
+    # datetime object containing current date and time
+    now = datetime.now()
+    print(now, "Moving with mouse to stay awake")
     #os.system('say "moving"') #say moving
     os.system('afplay /System/Library/Sounds/Tink.aiff') #play system sound Tink
     # Move pointer relative to current position
