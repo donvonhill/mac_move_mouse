@@ -5,13 +5,13 @@ from pynput.mouse import Button, Controller
 mouse = Controller()
 
 while (True):
-    #os.system('say "moving"')
-    os.system('afplay /System/Library/Sounds/Tink.aiff') #Tink Pop Morse
+    #os.system('say "moving"') #say moving
+    os.system('afplay /System/Library/Sounds/Tink.aiff') #play system sound Tink
     # Move pointer relative to current position
     mouse.move(5, 5)
     time.sleep(1)
     mouse.move(-5, -5)
-    time.sleep(300)
+    time.sleep(300) #move every 5 minutes
 
 # Press and release
 ##mouse.press(Button.right)
