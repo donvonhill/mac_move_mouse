@@ -2,4 +2,4 @@ Use python to move, click with mouse on any platform and play a sound when the m
 
 pynput for interaction - https://pypi.org/project/pynput/
 beepy for sound - https://pypi.org/project/beepy/
-Enjoy it. :-)
+Enjoy it. :-))
