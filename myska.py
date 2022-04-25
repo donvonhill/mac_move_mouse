@@ -11,6 +11,7 @@ while (True):
     print(now, "Pressing left button on mouse to stay awake")
     
     #choose one from 'coin','robot_error','error','ping','ready','success','wilhelm'
+    ###DAVAF OFFF 
     beepy.beep(sound="coin")
     
     # Move pointer relative to current position
@@ -19,8 +20,8 @@ while (True):
     #mouse.move(-5, 0)
     
     # Press and release
-    mouse.press(Button.left)
-    mouse.release(Button.left)
+    mouse.press(Button.right)
+    mouse.release(Button.right)
     
     time.sleep(300) #move every 5 minutes
 
@@ -31,4 +32,4 @@ while (True):
 ##mouse.click(Button.left, 2)
 
 # Scroll two steps down
-##mouse.scroll(0, 2)
+#mouse.scroll(0, 2)
